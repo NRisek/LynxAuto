@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>LynxAuto - Admin</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/admin.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <script type="text/javascript">
+      function adjust_textarea(h) {
+          h.style.height = "20px";
+          h.style.height = (h.scrollHeight)+"px";
+      }
+      </script>
+    <div class="glavni">
+        <img src="img/LynxLogo.png" class="logo">  
+    <div class="formaDiv1"> 
+      <form class="form-style-7">
+        <ul>
+        <li>
+            <label for="marka">Marka automobila</label>
+            <input type="text" name="marka" maxlength="100">
+            <span>Unesi marku automobila</span>
+        </li>
+        <li>
+            <label for="model">Model automobila</label>
+            <input type="text" name="model" maxlength="100">
+            <span>Unesi model automobila</span>
+        </li>
+        <li>
+          <label for="motor">Motor</label>
+          <input type="text" name="motor" maxlength="100">
+          <span>Unesi model motora</span>
+        </li>
+        <li>
+          <label for="snaga">Snaga</label>
+          <input type="text" name="snaga" maxlength="100">
+          <span>Unesi snagu motora (hp)</span>
+        </li> 
+        <li>
+          <label for="ubrzanje">Ubrzanje</label>
+          <input type="text" name="ubrzanje" maxlength="100">
+          <span>Unesi ubrzanje automobila (0-100km/h)</span>
+        </li> 
+        <li>
+          <label for="potrosnja">Potrošnja</label>
+          <input type="text" name="potrosnja" maxlength="100">
+          <span>Unesi potrošnju goriva (L/100km)</span>
+        </li>
+        <li>
+          <label for="cijena">Cijena</label>
+          <input type="text" name="cijena" maxlength="100">
+          <span>Unesi cijenu automobila ($)</span>
+        </li>    
+        <li>
+            <input type="submit" value="Unesi" >
+        </li>
+        </ul>
+        </form> 
+    </div>
+    <footer>
+      <h3>LynxAuto - Admin</h3>
+    </footer>
+    </div>
+  </div>
+  </body>
+</html>

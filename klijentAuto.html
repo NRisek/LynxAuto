@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>LynxAuto - Kosarica</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/klijentAuto.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <script type="text/javascript">
+      function adjust_textarea(h) {
+          h.style.height = "20px";
+          h.style.height = (h.scrollHeight)+"px";
+      }
+      </script>
+    <div class="glavni">
+        <img src="img/s63coupe.jpg" class="Auto">  
+        <div class="opisAuta">
+          <div class="okoModela"><h1 style="text-align: center;">AMG S63 Coupe</h1></div>
+          <h2>Stats:</h2>
+            <ul>
+                <li>Engine: twin-turbo 4.0-liter V8</li>
+                <li>Power: 603 hp</li>
+                <li>0-100km: 3.0 sec</li>
+                <li>Fuel consumption: 9.71 L/100km</li>
+                <li>Price: $167,700</li>
+            </ul>
+        </div>
+    <div class="formaDiv1"> 
+      <form class="form-style-7">
+        <ul>
+        <li>
+            <label for="ime">Ime</label>
+            <input type="text" name="ime" maxlength="100">
+            <span>Unesite ime</span>
+        </li>
+        <li>
+          <label for="prezime">Prezime</label>
+          <input type="text" name="prezime" maxlength="100">
+          <span>Unesite ime</span>
+        </li>
+        <li>
+            <label for="email">Email</label>
+            <input type="email" name="email" maxlength="100">
+            <span>Unesite email</span>
+        </li>
+        <li>
+            <label for="number">Broj mobitela</label>
+            <input type="text" name="brojMobitela" maxlength="100">
+            <span>Unesite broj mobitela</span>
+        </li>
+        <li>
+          <label for="brojKartice">Broj kartice</label>
+          <input type="text" name="brojKartice" maxlength="100">
+          <span>Unesite broj kartice</span>
+        </li>
+        <li>
+          <label for="datumIsteka">Datum isteka kartice</label>
+          <input type="date" name="datumIsteka" maxlength="100">
+          <span>Unesite datum isteka kartice</span>
+        </li>  
+        <li>
+          <label for="datumIsteka">Odabir boje</label>
+          <input type="radio" name="odabirBoje" value="bijela" checked> Bijela
+          <input type="radio" name="odabirBoje" value="crna"> Crna
+          <span>Odaberite boju automobila</span>
+        </li>    
+        <li>
+            <input type="submit" value="Potvrdi" >
+        </li>
+        </ul>
+        </form> 
+    </div>
+    <footer>
+      <h3>LynxAuto - Košarica</h3>
+    </footer>
+    </div>
+  </div>
+  </body>
+</html>

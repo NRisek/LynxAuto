@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>LynxAuto - AdminLogin</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/adminLogin.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <script type="text/javascript">
+      function adjust_textarea(h) {
+          h.style.height = "20px";
+          h.style.height = (h.scrollHeight)+"px";
+      }
+      </script>
+    <div class="glavni">
+        <img src="img/LynxLogo.png" class="logo">  
+    <div class="formaDiv1"> 
+      <form class="form-style-7">
+        <ul>
+        <li>
+            <label for="name">Korisnicko ime</label>
+            <input type="text" name="name" maxlength="100">
+            <span>Unesi korisničko ime</span>
+        </li>
+        <li>
+            <label for="email">Lozinka</label>
+            <input type="email" name="email" maxlength="100">
+            <span>Unesi važeću lozinku</span>
+        </li>
+        <li>
+            <!--<input type="submit" value="Prijava">   To je normalni submit-->
+            <a href="admin.html"><button type="button" name="prijava_button" value="prijava" class="btn-link">Prijava</button></a>
+        </li>
+        </ul>
+        </form>   
+    </div>
+    <footer>
+      <h3>LynxAuto - Admin</h3>
+    </footer>
+    </div>
+  </div>
+  </body>
+</html>
